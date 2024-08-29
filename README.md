@@ -2,8 +2,8 @@
 
 <!-- HEADER -->
 <p align="center">
-  <img src="src/assets/readmeImages/dark-mode.svg#gh-dark-mode-only" alt="Dark" id="dark-mode-image">
-  <img src="src/assets/readmeImages/light-mode.svg#gh-light-mode-only" alt="Light" id="light-mode-image">
+  <!-- <img src="src/assets/readmeImages/dark-mode.svg#gh-dark-mode-only" alt="Dark" id="dark-mode-image"> -->
+  <!-- <img src="src/assets/readmeImages/light-mode.svg#gh-light-mode-only" alt="Light" id="light-mode-image"> -->
 </p>
 
 <h1 align="center">The Blog</h1>
@@ -46,7 +46,7 @@
 
 ## About
 
-"Welcome to the blog—a space where every post ignites discussion, and every insight fuels growth in the world of web development.<br> </br>
+"Welcome to the blog—a space where every post ignites discussion, and every insight fuels growth in the world of web development.<br>
 
 Built with Next.js, TypeScript, and Tailwind CSS, this project is a hands-on exploration of modern web development techniques. Here, I'm putting my new knowledge to the test, applying concepts like dynamic routes, shared layouts between pages, and connecting to a PostgreSQL database. Throughout this journey, I’ll deploy the project on Vercel, set up and seed the database, execute SQL queries, and experiment with both static and dynamic rendering, including dynamic rendering without caching. This blog is not just a showcase of what I've learned but a stepping stone towards mastering these technologies."
 
@@ -58,9 +58,9 @@ Built with Next.js, TypeScript, and Tailwind CSS, this project is a hands-on exp
 
 ![Next.js][NextJS-shield]
 ![TypeScript][TypeScript-shield]
-![Tailwind][TailwindCSS-shield]
+![Tailwind][TailwindCSS-shield]<br>
 ![AI][AI-shield]
-![OpenAI][OpenAI-shield]
+![OpenAI][OpenAI-shield]<br>
 ![PostgreSQL][PostgreSQL-shield]
 ![Vercel][Vercel-shield]
 
@@ -83,11 +83,14 @@ Built with Next.js, TypeScript, and Tailwind CSS, this project is a hands-on exp
 
 - Clone the repository to your local machine
 - `cd` into the repository
-- Make sure the necessary dependencies are installed on your local machine
+- Make sure the necessary dependencies are installed on your local machine<br>
+
   Ex: ( npm install @heroicons/react@^2.1.3 @next/env@^14.2.3 @radix-ui/react-avatar@^1.0.4 @radix-ui/react-dropdown-menu@^2.0.6
   @radix-ui/react-slot@^1.0.2 @vercel/postgres@^0.8.0 class-variance-authority@^0.7.0 clsx@^2.1.1 dotenv@^16.4.5 lucide-react@^0.378.0
   next@14.2.3 next-auth@beta react@^18 react-dom@^18 tailwind-merge@^2.3.0 uuid@^9.0.1 zod@^3.23.6)
-- Once the necessary dependencies are installed, `cd` back into the root of the repository, and run `npm run dev`
+
+- Once the necessary dependencies are installed,<br>
+  `cd` back into the root of the repository, and run `npm run dev`
 - Set up `.env` file
 - Explore and enjoy!
 
@@ -98,6 +101,11 @@ Built with Next.js, TypeScript, and Tailwind CSS, this project is a hands-on exp
 ### Building:
 
 - Created a reusable component structure, allowing for ease of future iterations
+- Created pages and layouts, created a shared layout between pages
+- Navigation added between pages
+- Dynamic route added
+- Styling: global styles added, used Tailwind CSS and CSS modules for components and<br>
+  applied conditional styling with clsx in the sidebar nav.
 
 ### Potential Future Iterations
 
@@ -105,14 +113,10 @@ Built with Next.js, TypeScript, and Tailwind CSS, this project is a hands-on exp
 
 ## Challenges and Wins
 
-### Challenges
-
-### Wins
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
 ## Contact
-**Developers**<br>
+**Developer:**<br>
 
 Dayana Romero Villavicencio | [LinkedIn](https://www.linkedin.com/in/dayana-romero/) | [GitHub](https://github.com/drv0228)<br>
 
