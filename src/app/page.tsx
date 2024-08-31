@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from '@/app/ui/styles/home.module.css';
 
 export default function Home() {
@@ -14,6 +15,23 @@ export default function Home() {
                           Go to Blog
                         </a>
                     </div>
+                    <div className="relative flex justify-center items-center">
+            {/* Image */}
+            <Image
+              src="/image-desktop.jpeg"
+              width={1000}
+              height={760}
+              className="hidden rounded-lg md:block z-10"
+              alt="Screenshots of the dashboard project showing desktop version"
+            />
+            <Image
+              src="/image-mobile.jpeg"
+              width={560}
+              height={620}
+              className="block rounded-md md:hidden"
+              alt="Screenshot of the dashboard project showing mobile version"
+            />
+          </div>
                 </div>
 
             </div>
@@ -21,3 +39,7 @@ export default function Home() {
         </main>
   );
 }
+   
+        
+       
+  
