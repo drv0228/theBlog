@@ -22,7 +22,7 @@ export async function getPosts() {
         await new Promise((resolve) => setTimeout(resolve, 6000));
       const data = await sql`SELECT * FROM posts`
       console.log(data.rows)
-      return data.rows;
+      return data.rows
     }catch (error) {
      console.error('Error getting posts', error);
     }
