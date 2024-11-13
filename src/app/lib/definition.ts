@@ -5,8 +5,12 @@ export type Post = {
   date: string;
 };
 
-export type User = {
-  name: string | undefined | null;
-  email: string | undefined | null;
-  image: string | undefined | null;
-}
+// export type User = {
+//   name: string | undefined | null;
+//   email: string | undefined | null;
+//   image: string | undefined | null;
+// }
+
+import type { User } from 'next-auth';
+
+export type { User };

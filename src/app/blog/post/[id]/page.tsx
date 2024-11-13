@@ -5,7 +5,9 @@ import { connectToDB, getPosts } from '@/app/lib/data';
 
 export default async function Page({ params }: { params: { id: string } }) {
   const posts = await getPosts();
-  const post = posts.find((post) => post.id === params.id);
+
+    // Check if posts is defined and find the post by ID
+  const post = posts?.find((post) => post.id === params.id);
 
   if (!post) {
     notFound();
@@ -14,7 +16,7 @@ export default async function Page({ params }: { params: { id: string } }) {
   return (
     <>
       <h1>Post</h1>
-      {post && <Post {...post} />}
-    </>)
+      {post && <Post id={''} title={''} content={''} date={''} {...post} />}
+    </>);
 }
 
