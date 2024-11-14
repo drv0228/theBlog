@@ -15,10 +15,9 @@ export default async function UserButton() {
 
   if (!session?.user) return <SignIn />
   return (
-    <div className="flex gap-2 items-center">
-
+    <div className="flex gap-2 items-center mt-4">
       <span className="hidden text-sm sm:inline-flex">
-        {session.user.email}
+        {session.user.name}
       </span>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
