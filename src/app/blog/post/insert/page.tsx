@@ -45,6 +45,7 @@ export default function Page() {
   };
 
   useEffect(() => {
+    console.log("API KEY", process.env.OPENAI_API_KEY)
     getSession().then((session) => {
       setUser(session?.user || null);
       if (!session?.user) {
