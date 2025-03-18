@@ -96,22 +96,9 @@ Built with Next.js, TypeScript, and Tailwind CSS, this project is a hands-on exp
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Roadmap
+## Source:
 
-### Building:
-
-- Created a reusable component structure, allowing for ease of future iterations
-- Created pages and layouts, created a shared layout between pages
-- Navigation added between pages
-- Dynamic route added
-- Styling: global styles added, used Tailwind CSS and CSS modules for components and<br>
-  applied conditional styling with clsx in the sidebar nav.
-
-### Potential Future Iterations
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Challenges and Wins
+<h4 align="center"><a href="https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-next-js-24381329%3Ftrk%3Dshare_ent_url%26shareId%3DG99U3FxKQIK2KrX4l2c3Mg%253D%253D" target="_blank"><strong>Learning Next.JS by Sandy Ludosky</strong></h4>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
